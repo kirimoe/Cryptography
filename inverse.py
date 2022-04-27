@@ -15,5 +15,3 @@ if len(sys.argv) != 1:
     a = int(sys.argv[1])
     b = int(sys.argv[2])
     print(f'Modulo inverse of {a}, {b} is {inverse(a,b)}')
-else:
-    print('Provide Exact 2 Arguments')

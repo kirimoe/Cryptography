@@ -15,5 +15,3 @@ if len(sys.argv) != 1:
     b = int(sys.argv[2])
     print('By using Euclidians standard GCD Algorithm : ', gcd.gcd(a, b))
     print('By using Euclidians Extended GCD Algorithm : ',egcd(a, b))
-else:
-    print('Provide Exact 2 Arguments')

@@ -5,5 +5,3 @@ def congruence(a, b):
         if n % i == 0:
             m.append(i)
     return m 
-
-print(congruence(223, 103))
